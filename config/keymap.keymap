@@ -38,12 +38,12 @@
 
         lclk {
             bindings = <&mkp LCLK>;
-            key-positions = <19 20>;
+            key-positions = <33 34>;
         };
 
         rclk {
             bindings = <&mkp RCLK>;
-            key-positions = <20 21>;
+            key-positions = <34 35>;
         };
     };
 
