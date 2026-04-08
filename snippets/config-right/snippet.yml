@@ -1,3 +1,0 @@
-name: config-right
-append:
-  EXTRA_DTC_OVERLAY_FILE: config-right.overlay
