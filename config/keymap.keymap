@@ -186,7 +186,7 @@
             >;
         };
 
-        modnav {
+        layer_11 {
             bindings = <
 &trans  &trans  &trans     &trans     &trans      &trans                     &trans    &trans     &trans     &trans     &trans    &trans
 &trans  &kp A   &kp A      &kp EQUAL  &kp PRCNT   &kp TILDE                  &kp A     &kp UNDER  &kp MINUS  &kp A      &kp PLUS  &trans
