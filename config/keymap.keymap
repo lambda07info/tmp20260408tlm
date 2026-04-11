@@ -98,11 +98,11 @@
 
         modnav {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans                  &trans     &trans  &trans  &trans  &trans   &trans
-&trans  &kp A      &kp A      &kp A      &kp A      &kp A                   &kp A     &kp HOME  &kp UP     &kp END     &kp TILDE  &trans
-&trans  &kp LALT   &kp LSHFT  &kp LCTRL  &kp LGUI   &kp A   &trans  &trans  &kp HOME  &kp LEFT  &kp DOWN   &kp RIGHT   &kp END    &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp A   &trans  &trans  &kp A     &kp EXCL  &kp LCTRL  &kp PIPE    &kp BSLH   &trans
-&trans  &trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans     &trans  &trans  &kp A   &trans   &trans
+&trans  &trans     &trans     &trans     &trans     &trans                  &trans     &trans    &trans       &trans     &trans   &trans
+&trans  &kp A      &kp A      &kp A      &kp A      &kp A                   &kp PG_UP  &kp HOME  &kp UP       &kp END    &kp INS  &trans
+&trans  &kp LALT   &kp LSHFT  &kp LCTRL  &kp LGUI   &kp A   &trans  &trans  &kp PG_DN  &kp LEFT  &kp DOWN     &kp RIGHT  &kp DEL  &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp A   &trans  &trans  &trans     &kp TAB   &kp LS(TAB)  &trans     &trans   &trans
+&trans  &trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans     &trans    &trans       &trans     &trans   &trans
             >;
         };
 
