@@ -1,6 +1,6 @@
 &pointing_listener {
     scroller {
         layers = <6>;
-        input-processors = <&zip_xy_to_scroll_mapper>;
+        input-processors = <&zip_xy_to_scroll_mapper　INPUT_TRANSFORM_Y_INVERT>;
     };
 };
