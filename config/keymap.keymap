@@ -118,11 +118,11 @@
 
         navmod {
             bindings = <
-&trans  &trans   &trans    &trans    &trans     &trans                     &trans  &trans    &trans     &trans     &trans    &trans
-&trans  &kp TAB  &kp HOME  &kp UP    &kp END    &kp PG_UP                  &trans  &trans    &trans     &kp MINUS  &trans    &trans
-&trans  &kp ESC  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &trans  &trans  &trans  &kp RGUI  &kp RCTRL  &kp RSHFT  &kp LALT  &trans
-&trans  &trans   &kp BSPC  &kp DEL   &kp RET    &trans     &trans  &trans  &trans  &trans    &kp LANG2  &kp LANG1  &kp RALT  &trans
-&trans  &trans   &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans    &trans     &trans     &trans    &trans
+&trans  &trans   &trans    &trans    &trans     &trans                     &trans  &trans     &trans     &trans     &trans    &trans
+&trans  &kp TAB  &kp HOME  &kp UP    &kp END    &kp PG_UP                  &trans  &trans     &trans     &kp MINUS  &trans    &trans
+&trans  &kp ESC  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &trans  &trans  &trans  &kp RGUI   &kp RCTRL  &kp RSHFT  &kp LALT  &trans
+&trans  &trans   &kp BSPC  &kp DEL   &kp RET    &trans     &trans  &trans  &trans  &kp LANG2  &kp LANG1  &trans     &kp RALT  &trans
+&trans  &trans   &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans     &trans     &trans     &trans    &trans
             >;
         };
 
