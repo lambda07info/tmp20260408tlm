@@ -13,7 +13,7 @@
         combo_bt_clear {
             bindings = <&bt BT_CLR>;
             key-positions = <28 29>;
-            layers = <7>;
+            layers = <8>;
         };
 
         combo_tab {
@@ -111,7 +111,7 @@
 &trans  &trans    &trans     &trans     &trans    &trans                  &trans     &trans  &trans  &trans  &trans    &trans
 &trans  &trans    &trans     &trans     &trans    &trans                  &trans     &kp N7  &kp N8  &kp N9  &kp BSPC  &trans
 &trans  &kp LALT  &kp LSHFT  &kp LCTRL  &kp LGUI  &trans  &trans  &trans  &kp COMMA  &kp N4  &kp N5  &kp N6  &kp N0    &trans
-&trans  &kp RALT  &trans     &trans     &trans    &trans  &trans  &trans  &kp DOT    &kp N1  &kp N2  &kp N3  &trans    &trans
+&trans  &kp RALT  &trans     &trans     &trans    &trans  &trans  &trans  &kp DOT    &kp N1  &kp N2  &kp N3  &mo 7     &trans
 &trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans    &trans
             >;
         };
@@ -146,6 +146,16 @@
             >;
         };
 
+        fnbt {
+            bindings = <
+&trans  &trans  &trans   &trans   &trans   &trans                  &trans  &trans        &trans        &trans        &trans          &trans
+&trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans                  &trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_CLR_ALL  &trans
+&trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans  &trans  &trans  &out OUT_USB  &out OUT_BLE  &sys_reset    &bt BT_CLR      &trans
+&trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans  &trans  &trans  &to 0         &to 1         &trans        &trans          &trans
+&trans  &trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans        &trans        &trans        &trans          &trans
+            >;
+        };
+
         sym1 {
             bindings = <
 &trans  &trans      &trans      &trans      &trans      &trans                      &trans      &trans      &trans      &trans      &trans      &trans
@@ -153,16 +163,6 @@
 &trans  &trans      &kp GRAVE   &kp MINUS   &kp EQUAL   &trans      &trans  &trans  &kp PIPE    &kp SQT     &kp LBKT    &kp RBKT    &trans      &trans
 &trans  &trans      &kp TILDE   &kp UNDER   &kp PLUS    &trans      &trans  &trans  &kp BSLH    &kp DQT     &kp LBRC    &kp RBRC    &trans      &trans
 &trans  &trans      &trans      &trans      &trans      &trans      &trans  &trans  &kp TAB     &kp DEL     &trans      &trans      &trans      &trans
-            >;
-        };
-
-        modnav {
-            bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans                  &trans     &trans    &trans       &trans     &trans   &trans
-&trans  &kp A      &kp A      &kp A      &kp A      &kp A                   &kp PG_UP  &kp HOME  &kp UP       &kp END    &kp INS  &trans
-&trans  &kp LALT   &kp LSHFT  &kp LCTRL  &kp LGUI   &kp A   &trans  &trans  &kp PG_DN  &kp LEFT  &kp DOWN     &kp RIGHT  &kp DEL  &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp A   &trans  &trans  &trans     &kp TAB   &kp LS(TAB)  &trans     &trans   &trans
-&trans  &trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans     &trans    &trans       &trans     &trans   &trans
             >;
         };
 
@@ -183,16 +183,6 @@
 &trans  &kp HOME  &kp LEFT   &kp DOWN   &kp RIGHT   &kp END    &trans  &trans  &kp ASTRK  &kp N4  &kp N5  &kp N6   &kp PLUS   &trans
 &trans  &kp LGUI  &kp LALT   &kp LCTRL  &kp LSHFT   &kp RSHFT  &trans  &trans  &kp N0     &kp N1  &kp N2  &kp N3   &kp EQUAL  &trans
 &trans  &trans    &trans     &trans     &kp DELETE  &kp TAB    &trans  &trans  &trans     &trans  &trans  &kp DOT  &trans     &trans
-            >;
-        };
-
-        fncnav {
-            bindings = <
-&trans  &trans   &trans   &trans        &trans        &trans                      &trans     &trans     &trans     &trans     &trans     &trans
-&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp LCTRL  &kp HOME   &kp UP     &kp END    &kp LCTRL  &trans
-&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10     &trans  &trans  &kp LCTRL  &kp LEFT   &kp DOWN   &kp RIGHT  &kp LCTRL  &trans
-&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp LCTRL  &kp PG_UP  &kp PG_DN  &kp LCTRL  &kp LCTRL  &trans
-&trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans     &trans     &trans     &trans     &trans     &trans
             >;
         };
     };
