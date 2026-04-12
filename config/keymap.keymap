@@ -108,21 +108,21 @@
 
         modnum {
             bindings = <
-&trans  &trans     &trans     &trans     &trans     &trans                  &trans     &trans  &trans  &trans  &trans    &trans
-&trans  &kp TAB    &kp A      &kp A      &kp A      &kp A                   &trans     &kp N7  &kp N8  &kp N9  &kp BSPC  &trans
-&trans  &kp LALT   &kp LSHFT  &kp LCTRL  &kp LGUI   &kp A   &trans  &trans  &kp COMMA  &kp N4  &kp N5  &kp N6  &kp N0    &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp A   &trans  &trans  &kp DOT    &kp N1  &kp N2  &kp N3  &trans    &trans
-&trans  &trans     &trans     &trans     &trans     &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans    &trans
+&trans  &trans    &trans     &trans     &trans    &trans                  &trans     &trans  &trans  &trans  &trans    &trans
+&trans  &trans    &trans     &trans     &trans    &trans                  &trans     &kp N7  &kp N8  &kp N9  &kp BSPC  &trans
+&trans  &kp LALT  &kp LSHFT  &kp LCTRL  &kp LGUI  &trans  &trans  &trans  &kp COMMA  &kp N4  &kp N5  &kp N6  &kp N0    &trans
+&trans  &kp RALT  &trans     &trans     &trans    &trans  &trans  &trans  &kp DOT    &kp N1  &kp N2  &kp N3  &trans    &trans
+&trans  &trans    &trans     &trans     &trans    &trans  &trans  &trans  &trans     &trans  &trans  &trans  &trans    &trans
             >;
         };
 
         navmod {
             bindings = <
-&trans  &trans   &trans    &trans    &trans     &trans                     &trans  &trans     &trans     &trans     &trans    &trans
-&trans  &kp TAB  &kp HOME  &kp UP    &kp END    &kp PG_UP                  &trans  &trans     &trans     &kp MINUS  &trans    &trans
-&trans  &kp ESC  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_DN  &trans  &trans  &trans  &kp RGUI   &kp RCTRL  &kp RSHFT  &kp LALT  &trans
-&trans  &trans   &kp BSPC  &kp DEL   &kp RET    &trans     &trans  &trans  &trans  &kp LANG2  &kp LANG1  &trans     &kp RALT  &trans
-&trans  &trans   &trans    &trans    &trans     &trans     &trans  &trans  &trans  &trans     &trans     &trans     &trans    &trans
+&trans  &trans       &trans    &trans     &trans     &trans                     &trans  &trans     &trans     &trans     &trans    &trans
+&trans  &kp TAB      &kp HOME  &kp UP     &kp END    &kp ESC                    &trans  &trans     &trans     &kp MINUS  &kp BSPC  &trans
+&trans  &kp LS(TAB)  &kp LEFT  &kp DOWN   &kp RIGHT  &kp RET    &trans  &trans  &trans  &kp RGUI   &kp RCTRL  &kp RSHFT  &kp LALT  &trans
+&trans  &mo 5        &kp DEL   &kp PG_UP  &kp PG_DN  &kp SPACE  &trans  &trans  &trans  &kp LANG2  &kp LANG1  &trans     &kp RALT  &trans
+&trans  &trans       &trans    &trans     &trans     &trans     &trans  &trans  &trans  &trans     &trans     &trans     &trans    &trans
             >;
         };
 
@@ -130,7 +130,7 @@
             bindings = <
 &trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans                  &trans  &trans     &trans     &trans  &trans  &trans
-&trans  &trans  &trans  &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 6   &trans  &trans
+&trans  &trans  &mo 6   &mkp RCLK  &mkp LCLK  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &mo 6   &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
 &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans  &trans  &trans     &trans     &trans  &trans  &trans
             >;
