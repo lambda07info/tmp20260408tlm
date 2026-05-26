@@ -98,21 +98,21 @@
 
         sym {
             bindings = <
-&trans  &trans  &trans     &trans     &trans     &trans                     &trans    &trans     &trans    &trans    &trans    &trans
-&trans  &trans  &trans     &kp EQUAL  &kp PRCNT  &kp TILDE                  &trans    &kp UNDER  &kp LPAR  &kp RPAR  &kp PLUS  &trans
-&trans  &kp AT  &kp ASTRK  &kp DLLR   &kp SQT    &kp GRAVE  &trans  &trans  &kp HASH  &kp DQT    &kp LBKT  &kp RBKT  &trans    &trans
-&trans  &trans  &kp EXCL   &kp CARET  &kp PIPE   &kp BSLH   &trans  &trans  &kp AMPS  &kp MINUS  &kp LBRC  &kp RBRC  &trans    &trans
-&trans  &trans  &trans     &trans     &trans     &trans     &trans  &trans  &trans    &trans     &trans    &trans    &trans    &trans
+&trans  &trans     &trans     &trans    &trans      &trans                     &trans     &trans    &trans     &trans    &trans    &trans
+&trans  &kp EXCL   &kp AT     &kp HASH  &kp DOLLAR  &kp PRCNT                  &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR  &trans
+&trans  &kp MINUS  &kp EQUAL  &kp A     &kp A       &kp GRAVE  &trans  &trans  &kp HASH   &kp SQT   &kp LBKT   &kp RBKT  &kp PIPE  &trans
+&trans  &kp UNDER  &kp PLUS   &kp A     &kp A       &kp BSLH   &trans  &trans  &kp AMPS   &kp DQT   &kp LBRC   &kp RBRC  &kp BSLH  &trans
+&trans  &trans     &trans     &trans    &trans      &trans     &trans  &trans  &trans     &trans    &trans     &trans    &trans    &trans
             >;
         };
 
         modnav {
             bindings = <
-&trans  &trans     &trans    &trans    &trans     &trans                   &trans    &trans     &trans     &trans     &trans   &trans
-&trans  &kp ESC    &kp TAB   &tog 4    &mo 7      &kp INS                  &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp DEL  &trans
-&trans  &sk LCTRL  &sk LGUI  &sk LALT  &sk LSHFT  &trans   &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp RET  &trans
-&trans  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5   &trans  &trans  &kp F6    &kp F7     &kp F8     &kp F9     &kp F10  &trans
-&trans  &trans     &trans    &trans    &trans     &trans   &trans  &trans  &trans    &trans     &trans     &trans     &trans   &trans
+&trans  &trans     &trans    &trans    &trans     &trans                    &trans    &trans     &trans     &trans     &trans   &trans
+&trans  &kp ESC    &kp TAB   &tog 4    &mo 7      &kp INS                   &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp DEL  &trans
+&trans  &sk LCTRL  &sk LGUI  &sk LALT  &sk LSHFT  &kp RALT  &trans  &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp RET  &trans
+&trans  &kp F1     &kp F2    &kp F3    &kp F4     &kp F5    &trans  &trans  &kp F6    &kp F7     &kp F8     &kp F9     &kp F10  &trans
+&trans  &trans     &trans    &trans    &trans     &trans    &trans  &trans  &trans    &trans     &trans     &trans     &trans   &trans
             >;
         };
 
